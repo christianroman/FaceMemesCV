@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA72CCBB14A2FDB400E2CA52 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA72CCBA14A2FDB400E2CA52 /* main.cpp */; };
+		AA72CCBD14A2FDB400E2CA52 /* OpenCV.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA72CCBC14A2FDB400E2CA52 /* OpenCV.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA72CCB414A2FDB400E2CA52 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AA72CCBD14A2FDB400E2CA52 /* OpenCV.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA72CCB614A2FDB400E2CA52 /* OpenCV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCV; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA72CCBA14A2FDB400E2CA52 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AA72CCBC14A2FDB400E2CA52 /* OpenCV.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpenCV.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA72CCB314A2FDB400E2CA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA72CCAB14A2FDB300E2CA52 = {
+			isa = PBXGroup;
+			children = (
+				AA72CCB914A2FDB400E2CA52 /* OpenCV */,
+				AA72CCB714A2FDB400E2CA52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA72CCB714A2FDB400E2CA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA72CCB614A2FDB400E2CA52 /* OpenCV */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA72CCB914A2FDB400E2CA52 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				AA72CCBA14A2FDB400E2CA52 /* main.cpp */,
+				AA72CCBC14A2FDB400E2CA52 /* OpenCV.1 */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA72CCB514A2FDB400E2CA52 /* OpenCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA72CCC014A2FDB400E2CA52 /* Build configuration list for PBXNativeTarget "OpenCV" */;
+			buildPhases = (
+				AA72CCB214A2FDB400E2CA52 /* Sources */,
+				AA72CCB314A2FDB400E2CA52 /* Frameworks */,
+				AA72CCB414A2FDB400E2CA52 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCV;
+			productName = OpenCV;
+			productReference = AA72CCB614A2FDB400E2CA52 /* OpenCV */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA72CCAD14A2FDB300E2CA52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AA72CCB014A2FDB300E2CA52 /* Build configuration list for PBXProject "OpenCV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA72CCAB14A2FDB300E2CA52;
+			productRefGroup = AA72CCB714A2FDB400E2CA52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA72CCB514A2FDB400E2CA52 /* OpenCV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA72CCB214A2FDB400E2CA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA72CCBB14A2FDB400E2CA52 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA72CCBE14A2FDB400E2CA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA72CCBF14A2FDB400E2CA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA72CCC114A2FDB400E2CA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA72CCC214A2FDB400E2CA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA72CCB014A2FDB300E2CA52 /* Build configuration list for PBXProject "OpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA72CCBE14A2FDB400E2CA52 /* Debug */,
+				AA72CCBF14A2FDB400E2CA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA72CCC014A2FDB400E2CA52 /* Build configuration list for PBXNativeTarget "OpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA72CCC114A2FDB400E2CA52 /* Debug */,
+				AA72CCC214A2FDB400E2CA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA72CCAD14A2FDB300E2CA52 /* Project object */;
+}
